@@ -16,3 +16,8 @@ factorial() {
 
 # usage example 
  echo "Factorial of 5 is equal to: $factorial 5)"
+
+square() {
+  echo $(( $1 * $1))
+}
+  echo "quare or number is equal: $(square 4)"
